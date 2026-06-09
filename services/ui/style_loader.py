@@ -137,7 +137,7 @@ def load_premium_theme():
     /* Hide Streamlit branding */
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
-    header {visibility: hidden;}
+    
     
     /* Make sidebar always visible */
     [data-testid="collapsedControl"] {
