@@ -319,7 +319,7 @@ def main():
     if st.session_state.get("coach_feedback"):
         st.success(f"🤖 **AI Coach:** {st.session_state.coach_feedback}")
         def clear_feedback():
-            time.sleep(0.5)
+            time.sleep(0.1)
             if "coach_feedback" in st.session_state:
                 st.session_state.coach_feedback = None
         threading.Thread(target=clear_feedback, daemon=True).start()
